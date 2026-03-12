@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-        <div>
-            <p>"Educação não é o aprendizado de fatos, mas treinamento da mente para pensar."</p>
+
+    <div>
+        <p>
+            "Educação não é o aprendizado de fatos,
+            mas treinamento da mente para pensar."
             <span>Albert Einstein</span>
-        </div>
-        
-        <div>
-            <h1>Bem vindo de volta</h1>
-            <p> Por favor, insira suas credenciais para acessar seu painel acadêmico</p>
+        </p>
+    </div>
 
-            <form action="/login" method="post">
-                <label for="email">Endereço de e-mail</label>
-                <input name="email" id= "email" type="text" placeholder="user@email.com">
+    <div>
+        <h1>Bem-vindo de volta</h1>
+        <p>Por favor, insira suas credenciais para acessar seu painel acadêmico</p>
 
-                <label for="senha">Senha</label>
-                <input name="senha" id= "senha"type="password">
-                <a href="/esqueceu.html">Esqueceu?</a>
-        
-                <button type="submit">Entrar</button>
-            </form>
+        <form action="/login" method="post">
+            <label for="email">Endereço de e-mail</label>
+            <input name="email" id="email" type="text" placeholder="user@email.com" />
 
-            <p>Não tem uma conta? <a href="registro.html"> Registre-se agora.</a></p>
-        </div>
+            <label for="senha">Senha</label>
+            <a href="esqueceu.html">Esqueceu?</a>
+            <input name="senha" id="senha" type="password">
+
+            <button type="submit">Entrar</button>
+
+        </form>
+
+        <p>Não tem uma conta? <a href="registro.html">Registre-se agora.</a></p>
+    </div>
 
 </body>
+
 </html>
